@@ -1,0 +1,260 @@
+{
+  "classes": [
+    {
+      "name": "Base Elements",
+      "values": [
+        {
+          "name": "Addition",
+          "formula": "+",
+          "discovered": true,
+          "disableDiscovery": true
+        },
+        {
+          "name": "Subtraction",
+          "formula": "-",
+          "discovered": true,
+          "disableDiscovery": true
+        },
+        {
+          "name": "Logarithm",
+          "formula": "L",
+          "discovered": true,
+          "disableDiscovery": true
+        },
+        {
+          "name": "Antilogarithm",
+          "formula": "J",
+          "discovered": true,
+          "disableDiscovery": true
+        },
+        {
+          "name": "Unity",
+          "formula": "1",
+          "discovered": true
+        }
+      ]
+    },
+    {
+      "name": "Integers",
+      "values": [
+        {
+          "name": "-1: Negative Unit",
+          "real": -1
+        },
+        {
+          "name": "0: Nil",
+          "real": 0
+        },
+        {
+          "name": "2: Double",
+          "real": 2
+        },
+        {
+          "name": "3: Triple",
+          "real": 3
+        },
+        {
+          "name": "4: Composite",
+          "real": 4
+        },
+        {
+          "name": "5: True Prime",
+          "real": 5
+        },
+        {
+          "name": "6: Perfect",
+          "real": 6
+        },
+        {
+          "name": "7: Happy",
+          "real": 7
+        },
+        {
+          "name": "8: Cubic",
+          "real": 8
+        },
+        {
+          "name": "9: Lucky Composite",
+          "real": 9
+        },
+        {
+          "name": "10: Decade",
+          "real": 10
+        },
+        {
+          "name": "13: Emirp",
+          "real": 13
+        }
+      ]
+    },
+    {
+      "name": "Famous Wholes",
+      "values": [
+        {
+          "name": "Katy's Number",
+          "real": 37
+        },
+        {
+          "name": "Matt's Ex",
+          "real": 3435
+        },
+        {
+          "name": "Pythagorean Triple Halting",
+          "real": 7825
+        }
+      ]
+    },
+    {
+      "name": "Rationals",
+      "values": [
+        {
+          "name": "Ramanujan Sum",
+          "real": -0.08333333333333
+        },
+        {
+          "name": "Simplest Half",
+          "real": 0.5
+        },
+        {
+          "name": "Non-terminating Third",
+          "real": 0.33333333
+        },
+        {
+          "name": "Gravity (m/s/s)",
+          "real": -9.8
+        },
+        {
+          "name": "Indiana Pi",
+          "real": 3.2
+        }
+      ]
+    },
+    {
+      "name": "Irrational",
+      "values": [
+        {
+          "name": "Pythagorean Constant",
+          "real": 1.41421356
+        },
+        {
+          "name": "Theodorus' Constant",
+          "real": 1.7320508
+        },
+        {
+          "name": "Square Root of 5",
+          "real": 2.2360679
+        },
+        {
+          "name": "Delian Constant",
+          "real": 1.2599210
+        },
+        {
+          "name": "Wallis' Constant",
+          "real": 2.0945515
+        },
+        {
+          "name": "The Golden Ratio",
+          "real": 1.6180339
+        },
+        {
+          "name": "The Tonal Ratio",
+          "real": 1.059463
+        },
+        {
+          "name": "Grafting Ratio",
+          "real": 0.7639320
+        }
+      ]
+    },
+    {
+      "name": "Complex",
+      "values": [
+        {
+          "name": "Imaginary Unit",
+          "imag": 1
+        },
+        {
+          "name": "Negative Imaginary Unit",
+          "imag": -1
+        },
+        {
+          "name": "Dating Constant",
+          "real": 0.36787944117144233
+        },
+        {
+          "name": "The Useless Number",
+          "imag": 3.872983346207417
+        },
+        {
+          "name": "Exponential Period",
+          "imag": 6.283185307179586
+        }
+      ]
+    },
+    {
+      "name": "Transcendentals",
+      "values": [
+        {
+          "name": "Gelfond–Schneider Constant",
+          "real": 2.6651441
+        },
+        {
+          "name": "Euler's Number",
+          "real": 2.718281828459045
+        },
+        {
+          "name": "Archimedes' Constant (Pi)",
+          "real": 3.141592653589793
+        },
+        {
+          "name": "Tau",
+          "real": 6.283185307179586
+        },
+        {
+          "name": "Cosine of 1 Rad",
+          "real": 0.5403023
+        },
+        {
+          "name": "Sine of 1 Rad",
+          "real": 0.8414709
+        },
+        {
+          "name": "Tan of 1 Rad",
+          "real": 1.5574077
+        },
+        {
+          "name": "Cosh of 1 Rad",
+          "real": 1.5430806
+        },
+        {
+          "name": "Sinh of 1 Rad",
+          "real": 1.1752011
+        },
+        {
+          "name": "Tanh of 1 Rad",
+          "real": 0.7615941
+        },
+        {
+          "name": "Universal Parabolic Constant",
+          "real": 2.2955871
+        },
+        {
+          "name": "Basel Constant",
+          "real": 1.6449340668482264
+        },
+        {
+          "name": "Golden Angle",
+          "real": 2.3999632
+        },
+        {
+          "name": "Magic Angle",
+          "real": 0.9553166
+        },
+        {
+          "name": "Gelfond Constant",
+          "real": 23.1406926
+        }
+      ]
+    }
+  ]
+}

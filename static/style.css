@@ -1,0 +1,173 @@
+body{
+  overflow: hidden;
+}
+
+#workspace{
+  height: 100%;
+}
+
+#tag{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  user-select: none;
+}
+
+.icons{
+  position: absolute;
+  top: 8px;
+  right: 360px;
+}
+
+.icon_tile{
+  float:left;
+  margin-right: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-image: url("images/steel.png");
+}
+
+.icon{
+  cursor: pointer;
+  float:left;
+  margin-right: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+#tutorial{
+  max-width: 240px;
+}
+
+.counter{
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+
+#sidebar{
+  background-image: url("images/wood_banner.png");
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 100%;
+  top:0px;
+  right: 0px;
+  background-color: white;
+  border-left: 2px solid black;
+}
+
+#categories{
+  box-sizing: border-box;
+  width: 160px;
+  height: 100%;
+  border-right: 2px solid black;
+  overflow: auto;
+  padding: 8px;
+}
+
+#element_list{
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  overflow: auto;
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  padding: 8px;
+}
+
+.element{
+  color: aqua;
+  user-select: none;
+  cursor: move;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 14px;
+  background-image: url("images/crystal.png");
+  background-size: cover;
+}
+
+.element_title{
+  font-family: 'Inconsolata', monospace;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.work_element{
+  background-image: url("images/crystal.png");
+  font-weight: bold;
+  color: aqua;
+  cursor: move;
+  text-align: center;
+  min-width: 80px;
+  max-width: 120px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  padding: 4px;
+  font-family: 'Inconsolata', monospace;
+  word-wrap: break-word;
+}
+
+.category{
+  background-image: url("images/brass_small.png");
+  margin-bottom: 4px;
+  user-select: none;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@keyframes notification{
+  from{
+right: 300px;
+opacity: 0%;
+  }to{
+right: 360px;
+opacity: 100%;
+  }
+}
+
+#notif{
+  display: none;
+  position: absolute;
+  right: 360px;
+  bottom: 8px;
+  padding: 8px;
+}
+
+.anim_enter{
+  animation-name: notification;
+  animation-duration: 1s;
+  animation-direction: forward;
+  animation-timing-function: ease-out;
+}
+
+.anim_exit{
+  animation-name: notification;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+
+#notif_title{
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#notif_detail{
+   text-align: right;
+}

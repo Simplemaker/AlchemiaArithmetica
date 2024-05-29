@@ -1,0 +1,2 @@
+
+soundFiles = ["click","combine"]

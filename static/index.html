@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Alchemia Arithmetica</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="tag">
+      <h1>Alchemia Arithmetica</h1>
+      <p id="tutorial">
+        Drag and combine elements from the right in the workspace. Try to construct the most famous constants in mathematics!<br>
+        Click <a target="_blank" href="tutorial.html">here</a> for more details.
+      </p>
+    </div>
+    <div class="counter">
+      <p id="counter_field"></p>
+    </div>
+    <div class="icons">
+        <img src="images/hint.png" class="icon" onclick="hint()">
+      
+        <img src="images/settings_gear.png" class="icon" onclick="toggleSettings()">
+    </div>
+    <div id="notif">
+      <div id="notif_title"></div>
+      <div id="notif_detail"></div>
+    </div>
+    <div id="sidebar">
+      <div id="categories">
+      </div>
+      <div id="element_list">
+      </div>
+    </div>
+<div id="workspace">
+    </div>
+    <script src="pentatonic.js"></script>
+    <script src="DraggableTile.js"></script>
+    <script src="interface.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
